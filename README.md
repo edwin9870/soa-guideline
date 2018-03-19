@@ -8,4 +8,4 @@
 4. XSLT
 5. Database design
 6. SOA Composite Applications
-7. Oracle Service BUS (OSB)
+7. Oracle Service Bus (OSB)
