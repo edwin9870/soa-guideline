@@ -7,5 +7,5 @@
 3. XQueries
 4. XSLT
 5. Database design
-6. Oracle Composite
+6. SOA Composite Applications
 7. Oracle Service BUS (OSB)
