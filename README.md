@@ -1,4 +1,4 @@
-# SOA Guidline
+# SOA Guideline
 
 ## Index
 
