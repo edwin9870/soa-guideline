@@ -51,4 +51,4 @@
 ### 1.4.2 Service element
 
 * **name attribute:** the service name
-* wsdl:port's name attribute: [ServiceName]Port
+* **wsdl:port's name attribute:** [ServiceName]Port
