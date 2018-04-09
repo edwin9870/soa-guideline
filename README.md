@@ -16,12 +16,14 @@
 
 ## 1.1 Namespace structure
 
-`http://www.domain.name/[Year]/[DomainName]/Service/[ServiceName]/v1`
+`http://www.domain.name/[year]/[DomainName]/Service/[ServiceName]/v1`
+
+> v1 refers to the WSDL's version. It will increments by 1 each time a change break the design of a method.
 
 ## 1.2 Prefix
 
 * **wsdl prefix** should be used when declaring wsdl's elements
-* **stns prefix** should be used to refer to the main schema
+* **stns prefix** should be used to refer to the primary schema
 
 ## 1.3 WSDL's abstract section
 
