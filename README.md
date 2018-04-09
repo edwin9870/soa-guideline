@@ -2,7 +2,7 @@
 
 ## Index
 
-1. [WSDL](#-1-wsdl)
+1. [WSDL](#1-wsdl)
 2. XSD
 3. XQueries
 4. XSLT
