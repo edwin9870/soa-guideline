@@ -2,7 +2,7 @@
 
 ## Index
 
-1. [WSDL](wsdl)
+1. [WSDL](#-1-wsdl)
 2. XSD
 3. XQueries
 4. XSLT
@@ -12,7 +12,7 @@
 
 ---
 
-# <a name="wsdl"></a> 1. WSDL
+# 1. WSDL
 
 ## 1.1 Namespace structure
 
