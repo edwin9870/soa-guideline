@@ -54,3 +54,49 @@
 
 * **name attribute:** the service name
 * **wsdl:port's name attribute:** [ServiceName]Port
+
+# 2. XSD
+
+## 2.1 Namespace structure
+
+`http://www.domain.name/[year]/[DomainName]/Schema/[ServiceName]/v1`
+
+Aditionally, the full version must be especifiqued in the schema's version attribute. Ex: `version="1.0"`
+
+## 2.2 Qualification
+
+All element must be qualified, for this it must be specific as *qualified* element *elementFormDefault*.
+
+Attribues should not be qualified.
+
+## 2.3 XSD Design Pattern
+
+**Garden of Ede** must be used as XSD's design pattern.
+
+>> The **Venetian Blind** approach is similar to the Russian Doll approach in that they both use a single global element.  The Venetian Blind approach describes a modular approach by naming and defining all type definitions globally (as opposed to the Salami Slice approach which declares elements globally and types locally).  Each globally defined type describes an individual "slat" and can be reused by other components.  In addition, all the locally declared elements can be namespace qualified or namespace unqualified (the slats can be "opened" or "closed") depending on the elementFormDefault attribute setting at the top of the schema.  If the namespace is unqualified then the local elements in the instance document must not be qualified with the prefix of the namespace.
+>
+> ```xml
+> <?xml version="1.0" encoding="UTF-8"?>
+> <xs:schema targetNamespace="TargetNamespace" xmlns:TN="TargetNamespace" > xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+> elementFormDefault="qualified" attributeFormDefault="unqualified">
+>    <xs:element name="BookInformation" type="TN:BookInformation" > maxOccurs="unbounded"/>
+>     <xs:complexType name="BookInformation">
+>       <xs:sequence>
+>            <xs:element name="Title"/>
+>            <xs:element name="ISBN"/>
+>           <xs:element name="PeopleInvolved" type="TN:PeopleInvolvedType" maxOccurs="unbounded"/>
+>        </xs:sequence>
+>    </xs:complexType>
+>    <xs:complexType name="PeopleInvolvedType">
+>        <xs:sequence>
+>            <xs:element name="Author"/>
+>            <xs:element name="Publisher"/>
+>        </xs:sequence>
+>    </xs:complexType>
+></xs:schema>```
+
+Source: https://blogs.msdn.microsoft.com/skaufman/2005/04/29/schema-design-patterns-venetian-blind/
+
+## 2.4 Prefix
+
+**xsd** prefix must be used when refering to XSD's elements
