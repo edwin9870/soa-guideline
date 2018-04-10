@@ -61,13 +61,13 @@
 
 `http://www.domain.name/[year]/[DomainName]/Schema/[ServiceName]/v1`
 
-Aditionally, the full version must be especifiqued in the schema's version attribute. Ex: `version="1.0"`
+Additionally, the full version must be specified in the schema's version attribute. Ex: `version="1.0"`
 
 ## 2.2 Qualification
 
-All element must be qualified, for this it must be specific as *qualified* element *elementFormDefault*.
+All element must be qualified, for this, it must be specified as *qualified* element *elementFormDefault*.
 
-Attribues should not be qualified.
+Attributes should not be qualified.
 
 ## 2.3 XSD Design Pattern
 
@@ -99,4 +99,4 @@ Source: https://blogs.msdn.microsoft.com/skaufman/2005/04/29/schema-design-patte
 
 ## 2.4 Prefix
 
-**xsd** prefix must be used when refering to XSD's elements
+**xsd** prefix must be used when referring to XSD's elements.
