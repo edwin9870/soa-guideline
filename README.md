@@ -4,7 +4,7 @@
 
 1. [WSDL](#1-wsdl)
 2. [XSD](#2-xsd)
-3. [XQueries](#3-xqueries)
+3. [XQuery](#3-xquery)
 4. XSLT
 5. Database design
 6. SOA Composite Applications
@@ -101,7 +101,7 @@ Source: https://blogs.msdn.microsoft.com/skaufman/2005/04/29/schema-design-patte
 
 **xsd** prefix must be used when referring to XSD's elements.
 
-# 3. XQueries
+# 3. XQuery
 
 * XQuery's file name must be in PascalCase
 * XQuery's Method name must be in camelCase.
