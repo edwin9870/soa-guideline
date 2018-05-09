@@ -5,10 +5,9 @@
 1. [WSDL](#1-wsdl)
 2. [XSD](#2-xsd)
 3. [XQuery](#3-xquery)
-4. XSLT
-5. Database design
-6. SOA Composite Applications
-7. Oracle Service Bus (OSB)
+4. [XSLT](#4-xslt)
+5. [SOA Composite Applications](#5-soa-composite-applications)
+6. Oracle Service Bus (OSB)
 
 ---
 
@@ -108,3 +107,13 @@ Source: https://blogs.msdn.microsoft.com/skaufman/2005/04/29/schema-design-patte
 * XQuery's version must be 1.0
 * XQuery's enconding must be utf-8
 * Xquery's variables must be in camelCase
+
+# 4. XSLT
+
+TBD
+
+# 5. SOA Composite Applications
+
+## 5.1 Partitions
+
+Partition's name must be in lowercase
