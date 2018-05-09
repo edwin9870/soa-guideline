@@ -7,7 +7,7 @@
 3. [XQuery](#3-xquery)
 4. [XSLT](#4-xslt)
 5. [SOA Composite Applications](#5-soa-composite-applications)
-6. Oracle Service Bus (OSB)
+6. [Oracle Service Bus (OSB)](#6-oracle-service-bus-osb)
 
 ---
 
@@ -117,3 +117,17 @@ TBD
 ## 5.1 Partitions
 
 Partition's name must be in lowercase
+
+# 6. Oracle Service Bus (OSB)
+
+## 6.1 Node, pipeline, routing and stages naming convention
+
+* Node, pipeline, and routing must use the Proxy's name as the prefix and must be in PascalCase.
+
+* Stages should be writing in camelCase.
+
+## 6.2 Variable naming convention
+
+* Variables should be writen in camelCase.
+
+* Service Callout variable name's should use the following patterns: _methodName_**[Request/Response]**
