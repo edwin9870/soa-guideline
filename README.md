@@ -131,3 +131,7 @@ Partition's name must be in lowercase
 * Variables should be writen in camelCase.
 
 * Service Callout variable name's should use the following patterns: _methodName_**[Request/Response]**
+
+## 6.2 HTTP Proxy Service endpoint naming convention
+
+Proxy service's endpoint must be in lowercase.
